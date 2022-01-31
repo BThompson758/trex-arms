@@ -24,3 +24,8 @@
       color: #beec4e;
   }
 
+  input.form-control{
+      background-color: #141414;
+      border: black;
+  }
+

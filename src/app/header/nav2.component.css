@@ -75,3 +75,8 @@ ul.navbar-nav{
     position: relative;
     z-index: 10;
 }
+
+div.container-fluid{
+    height: 50px;
+    background-color: #141414;
+}

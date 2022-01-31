@@ -1,0 +1,14 @@
+nav.navbar{
+    color: #999999;
+    background-color: black;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    margin: 0px;
+    padding-top: 0px;
+}
+
+ul li a{
+    color:#c1ee4e;
+    text-decoration: none;
+}
