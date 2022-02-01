@@ -1,23 +1,46 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: -0.3px;
+}
+
 .form-inline{
-    width: 500px;
+    width: 600px;
     text-align: center;
     background-color: black;
     font-size: 14px;
     padding-right: 0px;
+    padding-left: 10px;
+    margin-left: 0px;
   }
 
   nav.navbar{
       background-color: black;
       position: relative;
       margin: 0px;
-      padding: auto;
+      margin-top: 0px;
+      padding-top: 0px;
       font-size: 14px;
+      max-height: 150px;
   }
 
-  nav span.shipping{
-      color: #999999;
-      padding-left: 0px;
-      font-size: 10px;
+  p.text-start{
+      text-align: left;
+      color: #c1ee4e;
+      padding-right: 0px;
+      padding-left: 20px;
+      height: 0px;
+      font-size: 11px;
+      letter-spacing: 1px;
+  }
+
+  p.text-end{
+        text-align: left;
+        color: #999999;
+        padding-right: 360px;
+        height: 0px;
+        font-size: 11px;
+        letter-spacing: 1px;
   }
 
   .nav-item{
@@ -27,5 +50,17 @@
   input.form-control{
       background-color: #141414;
       border: black;
+  }
+
+  img.img-fluid{
+      height: 100px;
+      padding-right: 5px;
+      padding-top: 5px;
+      padding-left: 300px;
+      margin-bottom: -50px;
+      padding-bottom: 5px;
+      overflow: visible;
+      object-fit: cover;
+      z-index: 100;
   }
 

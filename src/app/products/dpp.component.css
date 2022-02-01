@@ -1,0 +1,23 @@
+div.card{
+    margin-left: 300px;
+    width:158px;
+}
+
+p.card-title{
+    display: none;
+    margin-left: 300px;
+    margin-bottom: 0px;
+    overflow: visible;
+    z-index: 100;
+    object-fit: cover;
+}
+div.card:hover + p.card-title{
+    display: block;
+    background-color: black;
+    width: 158px;
+    color: #FFFFFF;
+    z-index: 100;
+    overflow: visible;
+    object-fit: cover;
+}
+
