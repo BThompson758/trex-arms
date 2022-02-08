@@ -27,3 +27,18 @@ body{
     -webkit-font-smoothing: antialiased;
     letter-spacing: -0.3px;
 }
+
+ul.buttons{
+    color: white !important;
+    background-color: black !important; 
+    outline: none !important;
+    margin-right: 370px;
+}
+
+button.btn{
+    color: white !important;
+    background-color: black !important; 
+    outline: none !important;
+    box-shadow: none !important;
+    height: 25px;
+}
