@@ -10,7 +10,7 @@ body{
     background-color: black;
     font-size: 14px;
     padding-right: 0px;
-    padding-left: 10px;
+    padding-left: .05%;
     margin-left: 0px;
   }
 
@@ -21,14 +21,14 @@ body{
       margin-top: 0px;
       padding-top: 0px;
       font-size: 14px;
-      max-height: 150px;
+      max-height: 5.2%;
   }
 
   p.text-start{
       text-align: left;
       color: #c1ee4e;
       padding-right: 0px;
-      padding-left: 20px;
+      padding-left: .1111%;
       height: 0px;
       font-size: 11px;
       letter-spacing: 1px;
@@ -37,7 +37,7 @@ body{
   p.text-end{
         text-align: left;
         color: #999999;
-        padding-right: 360px;
+        padding-right: 20%;
         height: 0px;
         font-size: 11px;
         letter-spacing: 1px;
@@ -54,11 +54,8 @@ body{
 
   img.img-fluid{
       height: 100px;
-      padding-right: 5px;
-      padding-top: 5px;
-      padding-left: 300px;
-      margin-bottom: -50px;
-      padding-bottom: 5px;
+      padding-left: 16.67%;
+      margin-bottom: -2.7777%;
       overflow: visible;
       object-fit: cover;
       z-index: 100;
