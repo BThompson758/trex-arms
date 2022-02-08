@@ -15,12 +15,16 @@
         - SureFire X300U
         - Ragnarok Holster
         - Trijicon ACOG
-    Created Footer Component
-        - Added proper text and images
-        - Styled correctly, no in-line styling
-    Created Buttons 
-        - Both in midnav
+
+    Bonus Features
+        Created Footer Component
+         - Added proper text and images
+         - Styled correctly, no in-line styling
+        Created Buttons 
+         - Both in midnav
             - One for account
             - One for cart
+        Added 4th Product 
+            - Trijicon ACOG
     
     
