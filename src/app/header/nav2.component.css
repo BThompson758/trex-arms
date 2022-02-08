@@ -15,7 +15,7 @@ nav.navbar{
 }
 
 li.nav-item{
-    margin-left: 25px;
+    margin-left: 20px;
     width: auto;
     padding-bottom: 5px;
 }
@@ -36,41 +36,7 @@ ul li a:hover{
     color: #bebebe;
 }
 
-ul li::after{
-    color:#bebebe;
-}
-
-ul li:active{
-    color: #999999;
-}
-
-ul li::before{
-    color: #999999;
-}
-
-ul{
-    color: #999999;
-}
-
-ul li{
-    list-style: none;
-    color: #999999;
-}
-.dropdown-menu:hover{
-    background-color: #000000;
-    color: #999999;
-}
-
-li:hover{
-    background-color: #000000;
-}
-
-a.nav-link{
-    align-items: center;
-    color: #999999;
-}
-
-.dropdown:hover .dropdown-menu{
+.nav-item:hover .dropdown-menu{
     display: block;
     margin-top: 0;
 }
@@ -78,7 +44,7 @@ a.nav-link{
 ul.navbar-nav{
     max-width: 1040px;
     position: relative;
-    left: 300px;
+    left: 280px;
 }
 
 div.container-fluid{
@@ -86,8 +52,8 @@ div.container-fluid{
     background-color: #141414;
 }
 
-body{
-    font-family:Arial, Helvetica, sans-serif;
+nav{
     -webkit-font-smoothing: antialiased;
     letter-spacing: -0.3px;
+    font-weight: 500;
 }

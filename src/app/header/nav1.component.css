@@ -6,12 +6,13 @@ body{
 
 .form-inline{
     width: 600px;
-    text-align: center;
     background-color: black;
+    color:#999999;
     font-size: 14px;
     padding-right: 0px;
-    padding-left: .05%;
+    padding-left: 5px;
     margin-left: 0px;
+    outline-color: #9acafa !important;
   }
 
   nav.navbar{
@@ -28,7 +29,7 @@ body{
       text-align: left;
       color: #c1ee4e;
       padding-right: 0px;
-      padding-left: .1111%;
+      padding-left: 2%;
       height: 0px;
       font-size: 11px;
       letter-spacing: 1px;
@@ -50,12 +51,16 @@ body{
   input.form-control{
       background-color: #141414;
       border: black;
+      height: 35px;
+      color: white;
+      outline-color: #9acafa !important;
   }
 
   img.img-fluid{
       height: 100px;
-      padding-left: 16.67%;
-      margin-bottom: -2.7777%;
+      padding-left: 18%;
+      padding-top: 10px;
+      margin-bottom: -40px;
       overflow: visible;
       object-fit: cover;
       z-index: 100;

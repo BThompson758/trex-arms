@@ -1,6 +1,13 @@
-<tx-nav1>Loading...</tx-nav1>
-<tx-mnav>Loading...</tx-mnav>
-<tx-nav2>Loading...</tx-nav2> 
-<tx-dpp>Loading DPP...</tx-dpp>
-<tx-ftr>Loading...</tx-ftr>
-Welcome to Trex-Arms!
+<div class="headers">
+    <tx-nav1>Loading...</tx-nav1>
+    <tx-mnav>Loading...</tx-mnav>
+    <tx-nav2>Loading...</tx-nav2> 
+</div>
+<div class="products">
+    <div *ngFor="let product of products">
+        <tx-smCrd class="products" img={{product.img}} [num]='product.num' name={{product.name}}></tx-smCrd>
+    </div>
+</div>
+<div class="footer">
+    <tx-ftr>Loading...</tx-ftr>
+</div>

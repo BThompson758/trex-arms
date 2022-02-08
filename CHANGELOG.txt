@@ -1,0 +1,26 @@
+2/8/21 
+    Main Features
+        - Replaced "dpp.component.x" with "smallCard.component.x" for reuse
+        - Added constructor to app.component.ts
+        - Adjusted styling for all navbars
+    Created smallCard.component.x 
+        - Styled to work with all "small" products
+        - included constructor w/ default values for Attributes
+    Added Attributes to smallCard  
+        - name
+        - item #
+        - item image
+    Created mockProductList.ts and added 4 products w/ Attributes
+        - DeltaPoint Pro 
+        - SureFire X300U
+        - Ragnarok Holster
+        - Trijicon ACOG
+    Created Footer Component
+        - Added proper text and images
+        - Styled correctly, no in-line styling
+    Created Buttons 
+        - Both in midnav
+            - One for account
+            - One for cart
+    
+    

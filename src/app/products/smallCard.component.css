@@ -1,0 +1,47 @@
+div.card{
+    margin-left: 300px;
+    width:150px;
+    height:150px;
+    padding:0;
+    margin-top: 0px;
+    margin-bottom: 0;
+    outline: none;
+    object-fit: fill;
+    border: 0;
+}
+
+p.card-title{
+    display: none;
+    overflow: visible;
+    z-index: 100;
+    object-fit: cover;
+    margin-left: -16px;
+    letter-spacing: -.3px;
+}
+
+p.card-num{
+    font-size: 24px;
+    margin-top: -20px;
+    color: white;
+    opacity: .2;
+    overflow: visible;
+    margin-left: -10px;
+}
+div.card:hover p.card-title{
+    display: block;
+    background-color: black;
+    width: 150px;
+    color: #FFFFFF;
+    z-index: 100;
+    overflow: visible;
+    object-fit: cover;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 60%;
+    margin-bottom: 0;
+    opacity: .75;
+}
+
+div.card:hover p.card-num{
+    opacity: .75;
+}
