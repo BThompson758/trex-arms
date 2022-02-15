@@ -1,0 +1,27 @@
+div.card{
+    margin-left: 300px;
+    width:250;
+    height:250;
+    padding:0;
+    margin-top: 0px;
+    margin-bottom: 0;
+    outline: none;
+    object-fit: fill;
+    border: 0;
+    background-color: black;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 1.2;
+}
+p.card-title{
+    z-index: 100;
+    object-fit: cover;
+    letter-spacing: -.3px;
+    background-color: black;
+    color: #c1ee4e;
+    margin-top: 15px;
+}
+p.card-cost{
+    color: white;
+}
+

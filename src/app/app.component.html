@@ -3,11 +3,7 @@
     <tx-mnav>Loading...</tx-mnav>
     <tx-nav2>Loading...</tx-nav2> 
 </div>
-<div class="products">
-    <div *ngFor="let product of products">
-        <tx-smCrd class="products" img={{product.img}} [num]='product.num' name={{product.name}}></tx-smCrd>
-    </div>
-</div>
+<router-outlet></router-outlet>
 <div class="footer">
     <tx-ftr>Loading...</tx-ftr>
 </div>
