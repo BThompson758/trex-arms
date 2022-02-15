@@ -26,5 +26,26 @@
             - One for cart
         Added 4th Product 
             - Trijicon ACOG
-    
-    
+
+
+2/15/21
+    Main Features:
+        Created the following routes
+            - pistolOptics
+            - Sidecar
+            - Medical
+            - Help
+            - Training
+        Created the following layouts
+            - pistolOptics
+            - Sidecar
+            - Medical
+            - Help
+            - Training
+        Attempted to reorganize navbars with rows & cols
+
+    Other Features:
+        Created the following files
+            - medicalProductList - Will store products for Medical layout
+            - product.model.ts - Contains the img, name, and cost constructor for new products
+            - productCard.component.x - Contains card layout for products in new routes - different from homepage and smallCard
