@@ -1,0 +1,65 @@
+.form-control{
+    width: 600px;
+    opacity: 70%;
+    color: black;
+    background-color: black;
+    border: none;
+}
+
+.search{
+    background-image: url("/assets/helpbg.jpg");
+    background-size:cover;
+    height: 300px;
+}
+
+
+.col-6{
+    background-color: black;
+    opacity: 95%;
+}
+.col-12{
+    background-color:black;
+    opacity: 95%;
+}
+
+.btn{
+    color: #c1ee4e;
+    outline-color: #c1ee4e;
+    border-color: #c1ee4e;
+    width: 525px;
+    height: 75px;
+    margin-top: 25px;
+    margin-left: 5px;
+    padding-top: 10px;
+}
+
+.btn:hover{
+    color:black;
+    background-color: #c1ee4e;
+}
+
+.col-12 .btn{
+    width: 1085px;
+    margin-bottom: 25px;
+}
+
+.help{
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: -.3px;
+    color: white;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+.request{
+    color: #c1ee4e;
+    font-size: 20px;
+    letter-spacing: -.3px;
+    font-weight: 500;
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}

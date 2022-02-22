@@ -49,3 +49,30 @@
             - medicalProductList - Will store products for Medical layout
             - product.model.ts - Contains the img, name, and cost constructor for new products
             - productCard.component.x - Contains card layout for products in new routes - different from homepage and smallCard
+
+
+2/22/21
+    Main Features:
+        - Completed layout page content for the following pages:
+            - Medical
+                - Finished product list & added products w/ ngFor
+                - Formatting tweaks w/ rows and cols
+            - Pistol Optics 
+                - Created & completed product list, adding w/ ngFor
+            - Sidecar
+                - Created & completed product list, adding w/ ngFor
+            - Help
+                - Added 7x buttons, formatted w/ rows and columns
+                - Added input form (search bar)
+            - Training
+                - Utilized rows & columns to divide and format sections for more routes later
+    Other Features:
+        - Home 
+            - Slight tweaking for smallCards to use rows/columns
+            - Added video source that autoplays on visiting page
+        - Misc. 
+            - Added basic background in app.component.css to carry over to all pages
+            - Reorganized assets based on route use 
+    Other Notes:
+        - All layouts from Assignment 4 filled w/ content aside from home and any nested routes
+        

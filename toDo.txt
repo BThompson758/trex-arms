@@ -1,0 +1,6 @@
+*Things I want to do, but will likely forget about*
+- reformat Footer
+- attempt to reformat navbars
+- generate more layouts
+- add icons
+- fix font if feasible 

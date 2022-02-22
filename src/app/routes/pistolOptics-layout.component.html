@@ -1,0 +1,28 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <p class="pistolOptics">OPTICS</p>
+        </div>
+        <div class="col-9"></div>
+    </div>
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <div class="row">
+                <div class="col-3" *ngFor="let product of products">
+                    <tx-product class="products" img={{product.img}} [cost]='product.cost' name={{product.name}}>
+                    </tx-product>
+                </div>
+            </div>
+        </div>
+        <div class="col-2"></div>
+    </div>
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <p class="route">HOME / PISTOL UPGRADES / Optics</p>
+        </div>
+        <div class="col-9"></div>
+    </div>
+</div>

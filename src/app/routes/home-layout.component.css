@@ -1,0 +1,13 @@
+.newholster{
+    color: #c1ee4e;
+    background-color: black;
+    z-index: 100;
+}
+
+.sidecar{
+    padding-bottom: 0;
+}
+
+.products{
+    padding: 0;
+}

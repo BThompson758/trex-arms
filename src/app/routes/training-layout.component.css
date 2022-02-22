@@ -1,0 +1,49 @@
+p{
+    color: white;
+    background-color: black;
+    font-weight: 500;
+    padding: 0;
+    font-size: 2.75rem;
+    line-height: 1.3;
+    letter-spacing: -2px;
+    position: relative;
+    margin-top: 350px;
+}
+
+.videos{
+    background-image: url("/assets/training/videos.jpeg");
+    background-size:cover;
+    text-align: center;
+}
+
+.classes{
+    background-image: url("/assets/training/classes.jpeg");
+    background-size: cover;
+    text-align: center;
+}
+
+.classes p{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.videos p{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.resources{
+    background-image: url("/assets/training/resources.jpeg");
+    background-size: cover;
+    text-align: center;
+}
+
+.standards{
+    background-image: url("/assets/training/standards.jpeg");
+    background-size: cover;
+    text-align: center;
+}
+
+.col-3{
+    height: 750px;
+}
