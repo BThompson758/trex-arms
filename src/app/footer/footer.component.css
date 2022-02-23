@@ -1,6 +1,8 @@
 .footer-basic {
     background-color: black;
     height: 340px;
+    font-family: 'Allerta';
+    font-weight: 500;
     
   }
   
@@ -42,7 +44,7 @@
 
   div.blurb{
     color: #b1b1b1;
-    font-size: 14px;
+    font-size: 12px;
     opacity: .6;
     text-align: center;
     top: 47.5%;

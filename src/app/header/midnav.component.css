@@ -1,13 +1,15 @@
 nav.navbar{
     color: #999999;
     background-color: black;
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
     position: relative;
     margin: 0px;
     padding-top: 0px;
     height: 40px;
     z-index: 0;
+    font-family: 'Allerta';
+    font-weight: 500;
 }
 
 ul li a{

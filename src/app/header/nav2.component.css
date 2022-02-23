@@ -1,19 +1,21 @@
 nav.navbar{
     color: #999999;
     background-color: #141414;
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
     position: relative;
     margin: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
+    font-family: 'Allerta';
     font-weight: 500;
 }
 
 .dropdown-menu{
     color: #999999;
     background-color: black;
-    font-size: 14px;
+    font-size: 12px;
+    font-family: 'Allerta';
     font-weight: 500;
 }
 
@@ -21,13 +23,14 @@ li.nav-item{
     margin-left: 20px;
     width: auto;
     padding-bottom: 5px;
+    font-family: 'Allerta';
     font-weight: 500;
 }
 
 li.nav-item:hover{
     color: #999999;
     background-color: black;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 ul li a{
@@ -50,17 +53,20 @@ ul.navbar-nav{
     max-width: 1040px;
     position: relative;
     left: 280px;
+    font-family: 'Allerta';
     font-weight: 500;
 }
 
 div.container-fluid{
     height: 50px;
     background-color: #141414;
+    font-family: 'Allerta';
     font-weight: 500;
 }
 
 nav{
     -webkit-font-smoothing: antialiased;
     letter-spacing: -0.3px;
+    font-family: 'Allerta';
     font-weight: 500;
 }
