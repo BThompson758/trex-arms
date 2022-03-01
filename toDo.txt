@@ -3,4 +3,4 @@
 - attempt to reformat navbars
 - generate more layouts
 - add icons
-- fix font if feasible 
+- fix font if feasible **DONE**

@@ -1,0 +1,36 @@
+<p *ngIf="myInfo == undefined">Failed fetching account details</p>
+<div *ngIf="myInfo != undefined">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <p class="myAcct">ACCOUNT DETAILS</p>
+            </div>
+            <div class="col-9"></div>
+        </div>
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-3">
+                <ul class="navbar-nav">
+                    <li><a class="nav-item" routerLink="AccountDetails" href="#">Dashboard</a></li>
+                    <li><a class="nav-item" routerLink="AccountDetails" href="#">Orders</a></li>
+                    <li><a class="nav-item" routerLink="AccountDetails" href="#">Addresses</a></li>
+                    <li><a class="nav-item" routerLink="AccountDetails" href="#">Account details</a></li>
+                    <li><a class="nav-item" routerLink="AccountDetails" href="#">Logout</a></li>
+                </ul>
+            </div>
+            <div class="col-1"></div>
+            <div class="d-flex flex-column justify-content-between">
+                <div class="flex-row">
+                    Name: {{myInfo.FirstName}} {{myInfo.LastName}}
+                </div>
+                <div class="flex-row">
+                    GitHub: {{myInfo.GitHub}}
+                </div>
+
+                <div class="flex-row">
+                    Mix Id: {{myInfo.mix_id}}
+                </div>
+                </div>
+            </div>
+        </div>

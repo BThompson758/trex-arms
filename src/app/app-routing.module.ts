@@ -7,15 +7,19 @@ import { HelpComponent } from './routes/help-layout.component';
 import { TrainingComponent } from './routes/training-layout.component';
 import { PistolOpticsComponent } from './routes/pistolOptics-layout.component';
 import { MedicalComponent } from './routes/medical-layout.component';
+import { myAccountComponent } from './routes/myAccount-layout.component';
+import { AccountDetailsComponent } from './routes/acctDetails-layout.component';
 
 const routes:Routes = [
-  {path: '', component: HomeComponent},
+  {path: '', redirectTo: '/Home',pathMatch:'full'},
   {path: 'Sidecar', component: SidecarComponent},
-  {path: 'home', component: HomeComponent},
+  {path: 'Home', component: HomeComponent},
   {path: 'Help', component: HelpComponent},
   {path: 'Training', component: TrainingComponent},
   {path: 'PistolOptics', component: PistolOpticsComponent},
-  {path: 'Medical', component: MedicalComponent}
+  {path: 'Medical', component: MedicalComponent},
+  {path: 'MyAccount', component: myAccountComponent},
+  {path: 'MyAccount/AccountDetails', component: AccountDetailsComponent}
 ];
 
 @NgModule({

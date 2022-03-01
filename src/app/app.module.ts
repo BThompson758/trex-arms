@@ -14,6 +14,8 @@ import { PistolOpticsComponent } from './routes/pistolOptics-layout.component';
 import { HelpComponent } from './routes/help-layout.component';
 import { TrainingComponent } from './routes/training-layout.component';
 import { productCard } from './products/productCard.component';
+import { myAccountComponent } from './routes/myAccount-layout.component';
+import { AccountDetailsComponent } from './routes/acctDetails-layout.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { productCard } from './products/productCard.component';
     PistolOpticsComponent,
     HelpComponent,
     TrainingComponent,
-    productCard
+    productCard,
+    myAccountComponent,
+    AccountDetailsComponent
   ],
   imports: [
     BrowserModule,
