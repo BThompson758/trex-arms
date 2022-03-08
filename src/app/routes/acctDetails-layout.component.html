@@ -20,17 +20,16 @@
                 </ul>
             </div>
             <div class="col-1"></div>
-            <div class="d-flex flex-column justify-content-between">
-                <div class="flex-row">
-                    Name: {{myInfo.FirstName}} {{myInfo.LastName}}
-                </div>
-                <div class="flex-row">
-                    GitHub: {{myInfo.GitHub}}
-                </div>
-
-                <div class="flex-row">
-                    Mix Id: {{myInfo.mix_id}}
-                </div>
+            <div class="col-4">
+                <div class="d-flex flex-column justify-content-between">
+                        Name: {{myInfo.FirstName}} {{myInfo.LastName}}
+                    <a class="flex-row"  href="https://github.com/BThompson758/trex-arms" target="_blank">
+                        GitHub: {{myInfo.GitHub}}
+                    </a>
+                    <div class="flex-row">
+                        Mix Id: {{myInfo.mix_id}}
+                    </div>
                 </div>
             </div>
         </div>
+    </div>

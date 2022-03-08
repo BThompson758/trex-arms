@@ -88,6 +88,23 @@
     Other Features:
          - Corrected Font 
          - Started formatting on new routes
-         
+
+3/8/2022
+    Main Features:
+        - Moved all data that uses ProductModel to the backend
+            - Sidecar
+            - PistolOptics
+            - Medical
+        - Implemented products.service.ts for all products using the ProductModel format
+            - getProductList(component:string) allows for modularity among components
+                - specify name of component in parameters, component name matches backend name
+        - Got AccountDetails to work correctly
+            - Fixed NullInjectorError
+            - Clicking github link will actually take you to repository
+    Bonus Features:
+         - Moved 3x lists of data to backend and implemented them, rather than just one 
+         - Fixed Lab 6 Assignment, does what I intended it to do last week
+         - Github linking on AccountDetails page
+         - Page no longer defaults to home when attempting to access a page with an error 
 
         

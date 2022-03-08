@@ -11,6 +11,10 @@ nav.navbar{
     font-weight: 500;
 }
 
+a:active{
+    color: #999999;
+}
+
 .dropdown-menu{
     color: #999999;
     background-color: black;
@@ -25,6 +29,10 @@ li.nav-item{
     padding-bottom: 5px;
     font-family: 'Allerta';
     font-weight: 500;
+}
+
+li.nav-item:active{
+    color: #999999;
 }
 
 li.nav-item:hover{

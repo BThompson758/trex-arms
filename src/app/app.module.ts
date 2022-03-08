@@ -15,6 +15,7 @@ import { HelpComponent } from './routes/help-layout.component';
 import { TrainingComponent } from './routes/training-layout.component';
 import { productCard } from './products/productCard.component';
 import { myAccountComponent } from './routes/myAccount-layout.component';
+import { HttpClientModule } from '@angular/common/http';
 import { AccountDetailsComponent } from './routes/acctDetails-layout.component';
 
 @NgModule({
@@ -37,7 +38,8 @@ import { AccountDetailsComponent } from './routes/acctDetails-layout.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
