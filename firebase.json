@@ -1,6 +1,7 @@
 {
   "hosting": [
     {
+      "target": "trex-arms",
       "public": "dist/trex-arms",
       "ignore": [
         "firebase.json",
