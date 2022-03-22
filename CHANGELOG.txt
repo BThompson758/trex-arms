@@ -107,4 +107,7 @@
          - Github linking on AccountDetails page
          - Page no longer defaults to home when attempting to access a page with an error 
 
-        
+3/22/2022
+    Main Features:
+         - Implemented firebase database
+         - Built & Deployed site successfully
