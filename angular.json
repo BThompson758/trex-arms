@@ -101,6 +101,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "trex-arms:build:production",
+            "firebaseProject": "trex-arms",
+            "firebaseHostingSite": "trex-arms"
+          }
         }
       }
     }

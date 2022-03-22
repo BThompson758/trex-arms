@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "trex-arms"
+  },
+  "targets": {
+    "trex-arms": {
+      "hosting": {
+        "trex-arms": [
+          "trex-arms"
+        ]
+      }
+    }
+  }
+}

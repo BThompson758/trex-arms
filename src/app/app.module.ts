@@ -17,6 +17,9 @@ import { productCard } from './products/productCard.component';
 import { myAccountComponent } from './routes/myAccount-layout.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AccountDetailsComponent } from './routes/acctDetails-layout.component';
+import { environment } from '../environments/environment';
+import { AngularFireModule } from '@angular/fire/compat';
+import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 
 @NgModule({
   declarations: [
@@ -39,7 +42,9 @@ import { AccountDetailsComponent } from './routes/acctDetails-layout.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]

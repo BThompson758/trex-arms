@@ -1,18 +1,15 @@
-import { HttpClient } from "@angular/common/http";
-import { Injectable } from "@angular/core";
+import { AngularFireDatabase } from '@angular/fire/compat/database';
+import { Component, Injectable } from "@angular/core";
 import { ProductModel } from "../products/product.model";
 
 @Injectable(
     { providedIn: 'root' }
 )
 export class ProductService {
-    private baseUrl: string = "https://trex-arms-default-rtdb.firebaseio.com/";
-    private productsEndPoint: string = "products/"
-
-    constructor(private http: HttpClient) {
+    constructor(private db:AngularFireDatabase)) {
     }
 
-    getProductList(component: string) {
-        return this.http.get<ProductModel []>(this.baseUrl + this.productsEndPoint + component + '.json');
+    getProductList(page: string) {
+        return this.db.list<ProductModel>("products/" + page).valueChanges();
     }
 }
