@@ -1,6 +1,6 @@
 import { Component } from "@angular/core";
 import { ItemModel } from "../products/item.model";
-import { mockProductList } from "../products/mockProductList";
+import { ItemService } from "./item.service";
 
 @Component({
     selector: 'tx-home',
@@ -9,15 +9,17 @@ import { mockProductList } from "../products/mockProductList";
 })
 
 export class HomeComponent{
-    title = 'trex-arms';
-    products: ItemModel[] = [];
-  
-    constructor(){
-      //Fetching data from backend later
-  
-      for(var product of mockProductList){
-        console.log(product);
+  products: ItemModel[] = [];
+
+  constructor(private itemService:ItemService) {
+  }
+
+  ngOnInit(): void {
+    this.itemService.getProductList().subscribe((data: ItemModel[]) => {
+      console.log("Fetching products");
+      for (var product of data) {
         this.products.push(product);
       }
-    }
+    });
+  }
 }

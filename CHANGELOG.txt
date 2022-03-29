@@ -111,3 +111,12 @@
     Main Features:
          - Implemented firebase database
          - Built & Deployed site successfully
+
+3/29/2022
+    Main Features:
+        - Implemented push service to write to backend
+            - Made a new service to handle items on home page
+            - Swapped read data from local to backend for home page
+            - Styled "Admin" page to match site 
+            - Added AC1 to backend via service, displayed on home page
+             

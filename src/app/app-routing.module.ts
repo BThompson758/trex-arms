@@ -9,6 +9,7 @@ import { PistolOpticsComponent } from './routes/pistolOptics-layout.component';
 import { MedicalComponent } from './routes/medical-layout.component';
 import { myAccountComponent } from './routes/myAccount-layout.component';
 import { AccountDetailsComponent } from './routes/acctDetails-layout.component';
+import { AddProductComponent } from './routes/add-product.component';
 
 const routes:Routes = [
   {path: '', redirectTo: '/Home',pathMatch:'full'},
@@ -19,14 +20,15 @@ const routes:Routes = [
   {path: 'PistolOptics', component: PistolOpticsComponent},
   {path: 'Medical', component: MedicalComponent},
   {path: 'MyAccount', component: myAccountComponent},
-  {path: 'MyAccount/AccountDetails', component: AccountDetailsComponent}
+  {path: 'MyAccount/AccountDetails', component: AccountDetailsComponent},
+  {path: 'Admin', component: AddProductComponent},
 ];
 
 @NgModule({
   declarations: [],
   imports: [
     CommonModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
   ],
   exports: [
     RouterModule

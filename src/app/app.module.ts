@@ -20,6 +20,8 @@ import { AccountDetailsComponent } from './routes/acctDetails-layout.component';
 import { environment } from '../environments/environment';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
+import { FormsModule } from '@angular/forms';
+import { AddProductComponent } from './routes/add-product.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +39,8 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
     TrainingComponent,
     productCard,
     myAccountComponent,
-    AccountDetailsComponent
+    AccountDetailsComponent,
+    AddProductComponent,
   ],
   imports: [
     BrowserModule,
@@ -45,6 +48,7 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
     HttpClientModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

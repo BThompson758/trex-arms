@@ -1,6 +1,6 @@
 div.card{
-    width:150px;
-    height:150px;
+    width: 187px;
+    height:185px;
     padding:0;
     margin-top: 0px;
     margin-bottom: 0;
@@ -36,7 +36,7 @@ div.card:hover p.card-title{
     object-fit: cover;
     padding-left: 5px;
     padding-right: 5px;
-    margin-top: 60%;
+    margin-top: 70%;
     margin-bottom: 0;
     opacity: .75;
 }

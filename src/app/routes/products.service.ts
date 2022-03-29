@@ -12,4 +12,5 @@ export class ProductService {
     getProductList(page: string) {
         return this.db.list<ProductModel>("products/" + page).valueChanges();
     }
+    
 }
