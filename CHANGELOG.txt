@@ -119,4 +119,13 @@
             - Swapped read data from local to backend for home page
             - Styled "Admin" page to match site 
             - Added AC1 to backend via service, displayed on home page
-             
+
+4/12/2022
+    Main Features:
+        - Successfully implemented Authentication page
+            - Created Authentication component/page
+            - Styled to match site Aesthetic 
+        - Authentication service implemented
+            - Includes form for Login and SignUp
+            - Checks for valid input
+

@@ -10,6 +10,7 @@ import { MedicalComponent } from './routes/medical-layout.component';
 import { myAccountComponent } from './routes/myAccount-layout.component';
 import { AccountDetailsComponent } from './routes/acctDetails-layout.component';
 import { AddProductComponent } from './routes/add-product.component';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 const routes:Routes = [
   {path: '', redirectTo: '/Home',pathMatch:'full'},
@@ -22,6 +23,7 @@ const routes:Routes = [
   {path: 'MyAccount', component: myAccountComponent},
   {path: 'MyAccount/AccountDetails', component: AccountDetailsComponent},
   {path: 'Admin', component: AddProductComponent},
+  {path: 'Auth', component: AuthenticationComponent},
 ];
 
 @NgModule({

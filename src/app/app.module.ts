@@ -22,6 +22,7 @@ import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { FormsModule } from '@angular/forms';
 import { AddProductComponent } from './routes/add-product.component';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { AddProductComponent } from './routes/add-product.component';
     myAccountComponent,
     AccountDetailsComponent,
     AddProductComponent,
+    AuthenticationComponent,
   ],
   imports: [
     BrowserModule,
